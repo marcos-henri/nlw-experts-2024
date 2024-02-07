@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <img src="logo.svg" alt="Logo NLW">
+        <h1>Teste seus conhecimentos sobre JS</h1>
+    </header>
+    <main>
+        <div id="quiz"></div>
+        <template>
+            <div class="quiz-item">
+                <h3>Pergunta 01</h3>
+                <dl><!--Description List-->
+                    <dt><!--Description Term-->
+                        <input type="radio" value="0" name="item" id="">
+                        <span>Resposta A</span>
+                    </dt>
+                </dl>
+            </div>
+        </template>
+        <div id="acertos">
+            <strong>Acertos</strong>
+            <span>0 de 10</span>
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
